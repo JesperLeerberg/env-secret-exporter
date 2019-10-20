@@ -27,13 +27,14 @@ This code can be easily used within your JavaScript projects as a Node.js module
 ```javascript
 const ese = require('env-secret-exporter');
 
-await ese({
+async function exportSecret() {
+  await ese({
     envFile: '.env',
     secretName: 'app_x_secret_dev'
-}, function (err) {
-	if (err) { throw err; }
-  console.log('Env file succesfully exported!');
-});
+  });
+}
+
+exportSecret()
 ```
 
 
