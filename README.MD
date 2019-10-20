@@ -1,4 +1,4 @@
-The env-secret-exporter is a CLI tool that allows you to quickly upload content of a .env file to the [AWS Secret Manager](https://aws.amazon.com/secrets-manager/).
+The env-secret-exporter is a CLI tool that allows you to quickly upload content of a `.env` file to the [AWS Secret Manager](https://aws.amazon.com/secrets-manager/).
 
 # Installation
 
@@ -6,7 +6,7 @@ The fastest way to install the cli is by using NPM.
 ```
 $ npm install -g env-secret-exporter
 ```
-This command installs the cli globally on your system allowing you to run it from anywhere. If you want a local installation just remove the ``` -g ``` flag. 
+This command installs the CLI globally on your system allowing you to run it from anywhere. If you want a local installation just remove the ``` -g ``` flag. 
 
 # Usage
 
@@ -69,7 +69,7 @@ await ese({
 
 ## Contributing
 
-Please fell free to contribute by making pull requests. Ensure the readme is updated if changes are made.
+Please fell free to contribute by making pull requests. Ensure the README is updated if changes are made.
 
 ### ToDo
 
