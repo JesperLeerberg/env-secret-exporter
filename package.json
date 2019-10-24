@@ -1,6 +1,6 @@
 {
   "name": "env-secret-exporter",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "CLI tool used to export contet of a .env file to the AWS secret manager",
   "main": "index.js",
   "keywords": [

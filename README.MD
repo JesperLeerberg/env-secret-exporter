@@ -37,8 +37,9 @@ async function exportSecret() {
 exportSecret()
 ```
 
-
-[back to top](#table-of-contents)
+## AWS Credentials
+ 
+The aws credentials will be loaded through the normal aws security order as explained the [SDK credentials section](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html). I recommend that the shared credential file is used for commandline execution.
 
 ## Command Line Options
 
