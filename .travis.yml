@@ -1,0 +1,10 @@
+language: node_js
+
+addons:
+  sonarcloud:
+    organization: "leerberg" # the key of the org you chose at step #3
+    token:
+      secure: "Tfy2rMEayjziDlKUXCMFPyvDOStp8ZzVNdq17REpNGqU3cOCb/mH0ZgCvhqPDRDUxRmcTS+qRw1RE/XV2Xbb7oLbL1WhV9/U++HLtpUAzio30BuDE+plKuJabSlNAXhRbcjdzmcSdGhKWlSG3Ht01l1I4hi55uJ5QbJf2hjgqC1+IUpDq4qRMCfZ6QulcZDXKKiXKn5XALFpR0FxkYKupQlJsvSn9poHGXow+vpkvPMbZyGpBU0tQLO3//f1tyPk3dNOYgpphdt+dVRqUAp+KsA0luCoFvxTypT2pifXhVXvc0U51yikUqXkgRgPOlh1+h9RjIvtH5N90lrkf6fhk3oyu/geMqoSAizf9YyLmb/gE8+RkbfFP/Gbp6D8PaGuSMOtyk3HSKCf1VKWhDO/+emuezjp1d3BBYye8K7u4vNS3LbUaupCzXOBbeMElrlJlfriye1mZ87N9Nrq55jcJU6as1c4aWdFr0W8vKZTzPD+WWmRphFKX4PVmsfDc8ThTlgnaqQS5MCrXkmy4NOsXxutiWX3Y8x3qF5gCvApOf6ewvP4fRaDt49epJr0MklFPlwTKlN+UzgPaADbc5fwzM0ag8MY+XP3HPZh/cPtbyVhZBql7QkuV1QsKxpGSm+cMZ0N8h1LGxXurHjz+yxIcyHKYnMs9Q9QMdJHS6XOcjc="
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
